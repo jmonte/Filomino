@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA29314158CF74B00FF6886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA29313158CF74B00FF6886 /* UIKit.framework */; };
+		6CA29316158CF74B00FF6886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA29315158CF74B00FF6886 /* Foundation.framework */; };
+		6CA29318158CF74B00FF6886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA29317158CF74B00FF6886 /* CoreGraphics.framework */; };
+		6CA2931E158CF74B00FF6886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA2931C158CF74B00FF6886 /* InfoPlist.strings */; };
+		6CA29320158CF74B00FF6886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2931F158CF74B00FF6886 /* main.m */; };
+		6CA29324158CF74B00FF6886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA29323158CF74B00FF6886 /* AppDelegate.m */; };
+		6CA29327158CF74B00FF6886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA29326158CF74B00FF6886 /* ViewController.m */; };
+		6CA2932A158CF74B00FF6886 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA29328158CF74B00FF6886 /* ViewController_iPhone.xib */; };
+		6CA2932D158CF74B00FF6886 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA2932B158CF74B00FF6886 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CA2930F158CF74B00FF6886 /* Filomino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filomino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA29313158CF74B00FF6886 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CA29315158CF74B00FF6886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CA29317158CF74B00FF6886 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CA2931B158CF74B00FF6886 /* Filomino-Info.plist */ = {isa = PBXFileReference; path = "Filomino-Info.plist"; sourceTree = "<group>"; };
+		6CA2931D158CF74B00FF6886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CA2931F158CF74B00FF6886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CA29321158CF74B00FF6886 /* Filomino-Prefix.pch */ = {isa = PBXFileReference; path = "Filomino-Prefix.pch"; sourceTree = "<group>"; };
+		6CA29322158CF74B00FF6886 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CA29323158CF74B00FF6886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CA29325158CF74B00FF6886 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6CA29326158CF74B00FF6886 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CA29329158CF74B00FF6886 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6CA2932C158CF74B00FF6886 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA2930C158CF74B00FF6886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA29314158CF74B00FF6886 /* UIKit.framework in Frameworks */,
+				6CA29316158CF74B00FF6886 /* Foundation.framework in Frameworks */,
+				6CA29318158CF74B00FF6886 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA29304158CF74800FF6886 = {
+			isa = PBXGroup;
+			children = (
+				6CA29319158CF74B00FF6886 /* Filomino */,
+				6CA29312158CF74B00FF6886 /* Frameworks */,
+				6CA29310158CF74B00FF6886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA29310158CF74B00FF6886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2930F158CF74B00FF6886 /* Filomino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA29312158CF74B00FF6886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CA29313158CF74B00FF6886 /* UIKit.framework */,
+				6CA29315158CF74B00FF6886 /* Foundation.framework */,
+				6CA29317158CF74B00FF6886 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA29319158CF74B00FF6886 /* Filomino */ = {
+			isa = PBXGroup;
+			children = (
+				6CA29322158CF74B00FF6886 /* AppDelegate.h */,
+				6CA29323158CF74B00FF6886 /* AppDelegate.m */,
+				6CA29325158CF74B00FF6886 /* ViewController.h */,
+				6CA29326158CF74B00FF6886 /* ViewController.m */,
+				6CA29328158CF74B00FF6886 /* ViewController_iPhone.xib */,
+				6CA2932B158CF74B00FF6886 /* ViewController_iPad.xib */,
+				6CA2931A158CF74B00FF6886 /* Supporting Files */,
+			);
+			path = Filomino;
+			sourceTree = "<group>";
+		};
+		6CA2931A158CF74B00FF6886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2931B158CF74B00FF6886 /* Filomino-Info.plist */,
+				6CA2931C158CF74B00FF6886 /* InfoPlist.strings */,
+				6CA2931F158CF74B00FF6886 /* main.m */,
+				6CA29321158CF74B00FF6886 /* Filomino-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA2930E158CF74B00FF6886 /* Filomino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA29330158CF74C00FF6886 /* Build configuration list for PBXNativeTarget "Filomino" */;
+			buildPhases = (
+				6CA2930B158CF74B00FF6886 /* Sources */,
+				6CA2930C158CF74B00FF6886 /* Frameworks */,
+				6CA2930D158CF74B00FF6886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filomino;
+			productName = Filomino;
+			productReference = 6CA2930F158CF74B00FF6886 /* Filomino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA29306158CF74800FF6886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6CA29309158CF74800FF6886 /* Build configuration list for PBXProject "Filomino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CA29304158CF74800FF6886;
+			productRefGroup = 6CA29310158CF74B00FF6886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA2930E158CF74B00FF6886 /* Filomino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA2930D158CF74B00FF6886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA2931E158CF74B00FF6886 /* InfoPlist.strings in Resources */,
+				6CA2932A158CF74B00FF6886 /* ViewController_iPhone.xib in Resources */,
+				6CA2932D158CF74B00FF6886 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA2930B158CF74B00FF6886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA29320158CF74B00FF6886 /* main.m in Sources */,
+				6CA29324158CF74B00FF6886 /* AppDelegate.m in Sources */,
+				6CA29327158CF74B00FF6886 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CA2931C158CF74B00FF6886 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA2931D158CF74B00FF6886 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CA29328158CF74B00FF6886 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA29329158CF74B00FF6886 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6CA2932B158CF74B00FF6886 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA2932C158CF74B00FF6886 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA2932E158CF74B00FF6886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA2932F158CF74C00FF6886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA29331158CF74C00FF6886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Filomino/Filomino-Prefix.pch";
+				INFOPLIST_FILE = "Filomino/Filomino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CA29332158CF74C00FF6886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Filomino/Filomino-Prefix.pch";
+				INFOPLIST_FILE = "Filomino/Filomino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA29309158CF74800FF6886 /* Build configuration list for PBXProject "Filomino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2932E158CF74B00FF6886 /* Debug */,
+				6CA2932F158CF74C00FF6886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA29330158CF74C00FF6886 /* Build configuration list for PBXNativeTarget "Filomino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA29331158CF74C00FF6886 /* Debug */,
+				6CA29332158CF74C00FF6886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA29306158CF74800FF6886 /* Project object */;
+}
